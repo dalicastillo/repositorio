@@ -1,0 +1,45 @@
+body{ color: black;background-image: url("fondo2.jpg") ;background-repeat:repeat; background-size:cover;
+text-align: center}
+
+ol {list-style-type: none; font-size: 20px; font-style:italic;}
+
+img {border-radius: 20px;}
+
+h2{background:#ffc3e4f5;color:black; font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-style: normal;font-size: 25px;
+  animation-duration: 2s;
+  animation-name: ampliar;
+  animation-iteration-count:infinite;animation-timing-function: ease-in;}
+    
+    @keyframes ampliar {
+        from { }
+        to {
+          
+          transform:scale(0.80)
+          
+        }
+      } 
+
+
+      
+      @media only screen and (min-width: 320px) {
+        #links { grid-template-columns:auto}
+        .border { border: 4px solid rgba(247, 67, 157, 0.76); background-color:plum;
+                   }
+                    }
+      
+      
+      @media only screen and (min-width: 480px) {
+        #links { grid-template-columns:auto}
+        .border { border: 3px solid rgba(43, 33, 38, 0.76); background-color:rgb(116, 56, 116);
+                  }   
+                   }
+      
+      
+      @media only screen and (min-width: 1200x) {
+        #links { grid-template-columns:auto}
+        .border { border: 2px solid rgba(255, 195, 226, 0.76); background-color:rgb(235, 160, 250);
+                   }
+                    }      
+                    
+      

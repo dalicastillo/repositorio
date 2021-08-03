@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+     font-size: 62.5%;
+}
+body{
+     font-size: 1.8rem; background-image: url("fondo2.jpg") ;background-repeat:repeat; 
+     background-size:cover
+}
+header {background-image: linear-gradient(to right,rgb(248, 200, 248) , rgba(252, 23, 137, 0.644));
+         padding: 5rem 0; font-family: 'Times New Roman', Times, serif;
+         
+       }
+ul .nav-item a {
+              color: #c54089f5;
+              padding: 2rem 3rem; 
+              margin-right: 5rem;
+              text-decoration-line: none;
+              text-transform: uppercase;
+
+              
+}        
+
+footer .redes { display: flex;
+               justify-content: space-around;
+               list-style: none;
+             color: rgb(5, 2, 4);
+              }
+             
+.seccionPrincipal {
+       height: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: #ff7bc4f5;
+       font-size: 3rem;
+       
+}      
+
+
+@media only screen and (min-width: 320px) {
+ #links { grid-template-columns:auto}
+     .border { border: 4px solid rgba(247, 67, 157, 0.76); background-color:plum;
+        }
+       }
+
+
+@media only screen and (min-width: 480px) {
+ #links { grid-template-columns:auto}
+     .border { border: 3px solid rgba(43, 33, 38, 0.76); background-color:rgb(116, 56, 116);}   
+      }
+
+
+@media only screen and (min-width: 1200x) {
+ #links { grid-template-columns:auto}
+     .border { border: 2px solid rgba(255, 195, 226, 0.76); background-color:rgb(235, 160, 250);}
+   }
+
+
+   h1 {
+     font-size: 5rem;
+     animation-duration: 4s;
+     animation-name: invisible;
+     animation-iteration-count:infinite;animation-timing-function: ease-in}
+  
+  
+     @keyframes invisible {
+     0% {
+       opacity: 0;
+     }
+     50%
+     {
+      opacity: 1; 
+     }
+     100% {
+       opacity: 3;
+     }
+  }
+
+
+ footer{ animation-duration: 4s;
+   animation-name:agrandar;
+   animation-iteration-count:infinite}
+
+
+   @keyframes agrandar {
+     from { }
+     to {
+       background-color: rgb(255, 208, 255);
+       transform:translate(5px, 10px);
+       background-image: linear-gradient(to right,rgb(248, 200, 248) , rgba(252, 23, 137, 0.644))
+     }
+   } 
+
+
+   .carousel-inner { width: 50%; height: 40rem; margin: 0 auto;}
+
+.iconos {justify-content: center; display: flex;}
+.iconos .bi {margin: 0 15px; color: whitesmoke; cursor: pointer;
+transition: all 0.3s ease;border-radius: 50%;}
+.iconos .bi-facebook:hover { background-color: rgb(34, 61, 150);}
+.iconos .bi-instagram:hover {background-image: linear-gradient( rgb(161, 18, 161), rgb(243, 184, 75));}
+.iconos .bi-whatsapp:hover {background-color: rgb(76, 197, 76);}
