@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+</head>
+<header>
+  <a class="nav-link active" aria-current="page" href="#">Alquileres</a>
+  <a class="nav-link" href="#">Home</a>
+  <a class="nav-link" href="#">Reservas</a>
+  <a class="nav-link" href="#">Departamentos</a>
+  <div class="navbar">
+  <button type="button" class="btn btn-secondary btn-sm">Reservar</button>
+  <img src="https://img.icons8.com/ios-filled/30/000000/circled-i.png"/>
+  <img src="https://img.icons8.com/ios-filled/30/000000/circled-f.png"/>
+  <img src="https://img.icons8.com/ios-filled/30/000000/circled-w.png"/>
+   <h4>Registrarse</h4>
+   <h4>Ingresar</h4>
+</div>
+</header>
+
+<body>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./ventana.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./ventana.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./ventana.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="bordo">
+<h2 class="dos">Reservar </h2>
+<br>
+<button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+  width="20" height="20"
+  viewBox="0 0 172 172"
+  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M68.37,15.1575c-12.65812,0.22844 -21.90312,4.00438 -27.52,11.395c-6.65156,8.76125 -7.86094,22.10469 -3.655,39.56c-1.54531,1.89469 -2.71437,4.77031 -2.2575,8.6c0.91375,7.57875 3.85656,10.69625 6.3425,11.9325c1.1825,5.95281 4.46125,12.64469 7.6325,15.8025v1.6125c0.02688,3.49375 0.01344,6.51719 -0.3225,10.4275c-2.10969,4.8375 -9.11062,7.67281 -17.2,10.8575c-13.4375,5.29438 -30.14031,11.81156 -31.39,32.68l-0.215,3.655h138.03l-0.215,-3.655c-0.08062,-1.45125 -0.30906,-2.76812 -0.5375,-4.085c-0.06719,-0.33594 -0.14781,-0.645 -0.215,-0.9675c-0.215,-0.99437 -0.36281,-1.97531 -0.645,-2.9025c-0.08062,-0.26875 -0.24187,-0.48375 -0.3225,-0.7525c-0.33594,-0.98094 -0.65844,-2.00219 -1.075,-2.9025c-0.06719,-0.14781 -0.14781,-0.28219 -0.215,-0.43c-0.49719,-1.03469 -1.02125,-1.97531 -1.6125,-2.9025c-6.14094,-9.62125 -17.18656,-13.98844 -26.66,-17.7375c-8.04906,-3.18469 -15.09031,-6.02 -17.2,-10.8575c-0.33594,-3.89687 -0.24187,-6.83969 -0.215,-10.32v-1.72c3.09063,-3.15781 6.26188,-9.82281 7.4175,-15.8025c2.41875,-1.24969 5.44219,-4.38062 6.3425,-11.9325c0.45688,-3.74906 -0.645,-6.59781 -2.15,-8.4925c2.00219,-6.81281 6.08719,-24.55031 -0.9675,-35.905c-1.54531,-2.48594 -3.5475,-4.39406 -5.9125,-5.9125c-1.075,-0.68531 -2.20375,-1.33031 -3.44,-1.8275c-1.24969,-0.48375 -2.56656,-0.90031 -3.9775,-1.1825c-3.25187,-4.09844 -9.48687,-6.235 -17.845,-6.235zM113.1975,18.5975c-4.87781,0.09406 -9.11062,0.88688 -12.7925,2.2575c1.935,1.67969 3.655,3.66844 5.0525,5.9125c7.4175,11.94594 5.10625,28.23219 2.4725,38.485c1.46469,3.09063 1.94844,6.61125 1.505,10.32c-0.95406,7.99531 -3.89687,12.53719 -6.9875,15.1575c-1.41094,5.21375 -3.89687,10.57531 -6.665,14.2975c-0.02687,2.60688 -0.05375,4.81063 0.1075,7.4175c1.86781,2.10969 8.14313,4.56875 12.9,6.45c10.535,4.16563 25.24906,10.03781 32.035,24.1875h31.39l-0.215,-3.655c-1.075,-17.92562 -15.34562,-23.55594 -26.7675,-28.0575c-6.3425,-2.49937 -12.33562,-4.89125 -14.0825,-8.7075c-0.25531,-3.21156 -0.24187,-5.71094 -0.215,-8.6v-1.1825c2.74125,-2.86219 5.2675,-8.50594 6.235,-13.2225c2.12313,-1.19594 4.60906,-3.96406 5.375,-10.32c0.37625,-3.17125 -0.45687,-5.61687 -1.72,-7.31c1.73344,-5.97969 4.99875,-20.84156 -0.9675,-30.4225c-2.53969,-4.085 -6.36937,-6.59781 -11.395,-7.6325c-2.87562,-3.49375 -8.15656,-5.375 -15.265,-5.375z"></path></g></g></svg>   Reservar</button>
+<button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+  width="20" height="20"
+  viewBox="0 0 172 172"
+  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,18.30531l-71.7804,63.74283l9.94362,4.74643l60.05014,-53.45605c1.01862,-0.90649 2.55466,-0.90649 3.57327,0l60.05145,53.45605l9.94427,-4.74643zM86,38.94382l-48.71094,43.27951v71.63605h29.22656v-24.44733c0,-1.48417 1.20333,-2.42767 2.6875,-2.42767h33.59375c1.48417,0 2.6875,0.9435 2.6875,2.42767v24.44733h29.22656v-71.63605z"></path></g></g></svg>    Reservar</button>
+<button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+  width="20" height="20"
+  viewBox="0 0 172 172"
+  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M87.34375,6.71875c-15.44834,0 -28.04357,12.59523 -28.04357,28.04357c0,14.30959 10.81321,26.15148 24.68419,27.82245v14.45712l-16.7411,4.09096l-42.93045,-10.49017c-0.21767,-0.05312 -0.44011,-0.08433 -0.664,-0.09317c-0.91333,-0.03615 -1.80196,0.30139 -2.46097,0.93478c-0.65901,0.63338 -1.03151,1.50793 -1.0316,2.42197v80.03186c0.00005,1.54828 1.05816,2.89605 2.56218,3.26358l43.67187,10.67126c0.27755,0.06628 0.56242,0.09693 0.84772,0.0912c0.28902,0.00668 0.5777,-0.02398 0.85887,-0.0912l42.81891,-10.46262l42.81825,10.46262c1.00185,0.2446 2.06053,0.01554 2.87166,-0.62133c0.81113,-0.63687 1.28483,-1.61097 1.28491,-2.64225v-80.03186c-0.00005,-1.54828 -1.05815,-2.89605 -2.56218,-3.26358l-43.1706,-10.54857c-0.3669,-0.13764 -0.75506,-0.21003 -1.14691,-0.2139c-0.00612,-0.00067 -0.01225,-0.00133 -0.01837,-0.00197c-0.01356,0.00014 -0.02712,0.00036 -0.04068,0.00066c-0.03828,-0.00044 -0.07656,-0.00022 -0.11482,0.00066c-0.40014,0.00164 -0.79676,0.07474 -1.17119,0.21587l-18.96275,4.63358v-12.81549c13.87098,-1.67097 24.68419,-13.51285 24.68419,-27.82245c0,-15.44833 -12.59522,-28.04357 -28.04357,-28.04357zM87.34375,13.4375c11.81726,0 21.32482,9.50756 21.32482,21.32482c0,11.68229 -9.29601,21.09072 -20.92523,21.30447c-0.27039,-0.03323 -0.54381,-0.03345 -0.81426,-0.00066c-11.62211,-0.22168 -20.91014,-9.62662 -20.91014,-21.30382c0,-11.81726 9.50756,-21.32482 21.32482,-21.32482zM87.34375,18.1111c-1.21151,-0.01713 -2.3384,0.61939 -2.94915,1.66582c-0.61076,1.04644 -0.61076,2.34067 0,3.3871c0.61076,1.04644 1.73764,1.68296 2.94915,1.66582c5.52542,0 9.93181,4.40736 9.93181,9.93247c-0.01713,1.21151 0.61939,2.3384 1.66582,2.94915c1.04644,0.61076 2.34067,0.61076 3.3871,0c1.04644,-0.61076 1.68296,-1.73764 1.66582,-2.94915c0,-9.15604 -7.49417,-16.65122 -16.65056,-16.65122zM26.875,78.18552l36.95313,9.02898v73.11562l-36.95312,-9.02898zM107.5,78.21307v73.11562l-36.84158,9.00142v-73.11562l13.32596,-3.2557v13.46309c-0.01713,1.21151 0.61939,2.3384 1.66582,2.94915c1.04644,0.61076 2.34067,0.61076 3.3871,0c1.04644,-0.61076 1.68296,-1.73764 1.66582,-2.94915v-15.10472zM114.33029,78.21307l36.84158,9.00142v73.11562l-36.84158,-9.00142z"></path></g></g></svg>  Reservar</button>
+<button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+  width="20" height="20"
+  viewBox="0 0 172 172"
+  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M72.24,10.32c-32.33062,0 -58.48,26.14938 -58.48,58.48c0,32.33063 26.14938,58.48 58.48,58.48c11.54281,0 22.22563,-3.38625 31.2825,-9.1375l42.2475,42.2475l14.62,-14.62l-41.71,-41.6025c7.49813,-9.83625 12.04,-22.02406 12.04,-35.3675c0,-32.33062 -26.14937,-58.48 -58.48,-58.48zM72.24,24.08c24.76531,0 44.72,19.95469 44.72,44.72c0,24.76531 -19.95469,44.72 -44.72,44.72c-24.76531,0 -44.72,-19.95469 -44.72,-44.72c0,-24.76531 19.95469,-44.72 44.72,-44.72z"></path></g></g></svg>  Buscar</button>
+</div>
+
+<h1 class="depto">Deptos</h1>
+<div class="carrusel">
+  <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel">
+    <h3>1 ambiente</h3>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-mdb-interval="10000">
+        <img
+          src="1amb.jpg"
+          class="d-block w-100"
+          alt="Wild Landscape"
+        />
+      </div>
+      <div class="carousel-item" data-mdb-interval="2000">
+        <img
+          src="1amb.jpg"
+          class="d-block w-100"
+          alt="Camera"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="1amb.jpg"
+          class="d-block w-100"
+          alt="Exotic Fruits"
+        />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel">
+    <h3>2 ambientes</h3>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-mdb-interval="10000">
+        <img
+          src="2amb.jpg"
+          class="d-block w-100"
+          alt="Wild Landscape"
+        />
+      </div>
+      <div class="carousel-item" data-mdb-interval="2000">
+        <img
+          src="2amb.jpg"
+          class="d-block w-100"
+          alt="Camera"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="2amb.jpg"
+          class="d-block w-100"
+          alt="Exotic Fruits"
+        />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<h3 class="about">About</h3>
+<br>
+<div class="grillas">
+    <div class="row g-0 bg-light position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="hall.jpg" class="w-100" alt="...">
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <h5 class="mt-0">¿Por qué comodo?</h5>
+        <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+      </div>
+    </div>
+  <div class="row g-0 bg-light position-relative">
+    <div class="col-md-6 mb-md-0 p-md-4">
+      <img src="comodidad.jog.JPG" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h4 class="mt">Servicios y comodidades</h4>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-filter-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM3.5 5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zM5 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-mask" viewBox="0 0 16 16">
+        <path d="M6.225 1.227A7.5 7.5 0 0 1 10.5 8a7.5 7.5 0 0 1-4.275 6.773 7 7 0 1 0 0-13.546zM4.187.966a8 8 0 1 1 7.627 14.069A8 8 0 0 1 4.186.964z"/>
+      </svg>
+    </div>
+    <div class="row g-0 bg-light position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="comodidad.jpg" class="w-100" alt="...">
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <ul>
+          <li>Lorem ipsum dolor sit amet </li>
+          <li>Quod dolores quidem </li>
+          <li>Aliquid, fugit neque</li>
+          <li>A quisquam saepe corrupti</li>
+          <li>Lorem ipsum dolor sit amet  </li>
+          <li>Quod dolores quidem</li>
+          <li>Aliquid, fugit neque</li>
+          <li>A quisquam saepe corrupti</li>
+          <li>Quod dolores quidem </li>
+        </ul>
+       
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+<section class="maps">
+<h4 class="ubicacion">Ubicación</h4>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.5353706165347!2d-58.380793599383196!3d-34.60321296043492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1640703258544!5m2!1ses!2sar" width="1350" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<div class="mapa">
+  <h3>Lugares de cercania</h3>
+  <ul class="comida">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+      width="60" height="60"
+      viewBox="0 0 172 172"
+      style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#f1c40f"></path><g fill="#ffffff"><path d="M28.24174,50.92214v24.0732c0,8.05888 3.44172,10.87056 5.71739,12.71366c1.26949,1.02499 1.50458,1.26008 1.50458,1.73026v24.0732c0,8.45383 -0.82752,14.44392 4.81464,14.44392c5.96188,0 4.81464,-7.67333 4.81464,-14.44392v-24.0732c0,-0.36674 0.02821,-0.536 1.35412,-1.50458c2.32269,-1.71145 5.86784,-4.28804 5.86784,-12.5632v-24.44935h-4.81464v21.66588c0,1.32591 -1.07201,2.40732 -2.40732,2.40732c-1.33531,0 -2.40732,-1.08141 -2.40732,-2.40732v-21.66588h-4.81464v21.66588c0,1.32591 -1.07201,2.40732 -2.40732,2.40732c-1.33531,0 -2.40732,-1.08141 -2.40732,-2.40732v-21.66588zM131.60605,50.92214c-0.40436,0.01881 -0.7805,0.15986 -1.12843,0.37614c-0.70527,0.44197 -1.12843,1.20366 -1.12843,2.03118v58.15183c0,8.32218 -1.10962,16.4751 4.81464,16.4751c5.18138,0 4.81464,-7.97425 4.81464,-16.85124v-16.85124c0,-2.13462 0.88394,-4.25983 1.88072,-6.69536c1.38233,-3.3947 2.93392,-7.22196 2.93392,-12.5632c0,-2.8869 1.74907,-17.60353 -10.9834,-23.84752c-0.37614,-0.18807 -0.7993,-0.24449 -1.20366,-0.22569zM89.62841,53.32946c-19.24916,0 -34.90614,15.65698 -34.90614,34.90614c0,19.24916 15.65698,34.90614 34.90614,34.90614c19.24916,0 34.90614,-15.65698 34.90614,-34.90614c0,-19.24916 -15.65698,-34.90614 -34.90614,-34.90614zM88.27429,65.44129c1.32591,-0.05642 2.48255,0.93096 2.55778,2.25686c0.07523,1.32591 -0.93096,2.40732 -2.25686,2.48255c-9.52584,0.54541 -17.0017,8.49145 -17.0017,18.0549c0,9.95841 8.09649,18.0549 18.0549,18.0549c9.56346,0 17.50949,-7.47586 18.0549,-17.0017c0.07523,-1.32591 1.15664,-2.32269 2.48255,-2.25686c1.32591,0.07523 2.33209,1.23187 2.25686,2.55778c-0.68646,12.07422 -10.68248,21.51542 -22.79431,21.51542c-12.61022,0 -22.86954,-10.25932 -22.86954,-22.86954c0,-12.11183 9.44121,-22.09845 21.51542,-22.79431z"></path></g></g></g></svg>
+      <li>Lorem ipsum dolor sit amet </li>
+      <li>Quod dolores quidem </li>
+      <li>Aliquid, fugit neque</li>
+    
+  </ul>
+  <ul class="bondi">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="60" height="60"
+    viewBox="0 0 172 172"
+    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#f1c40f"></path><g fill="#ecf0f1"><path d="M24.08,17.2c-3.79317,0 -6.88,3.08683 -6.88,6.88v27.52c0,3.79317 3.08683,6.88 6.88,6.88h9.17333v94.02667c0,1.26592 1.02741,2.29333 2.29333,2.29333c1.26592,0 2.29333,-1.02741 2.29333,-2.29333v-94.02667h9.17333c3.79317,0 6.88,-3.08683 6.88,-6.88v-27.52c0,-3.79317 -3.08683,-6.88 -6.88,-6.88zM30.96,26.37333h6.88c3.79317,0 6.88,3.08683 6.88,6.88c0,3.79317 -3.08683,6.88 -6.88,6.88h-4.58667v6.88c0,1.26592 -1.02741,2.29333 -2.29333,2.29333c-1.26592,0 -2.29333,-1.02741 -2.29333,-2.29333v-9.17333v-9.17333c0,-1.26592 1.02741,-2.29333 2.29333,-2.29333zM33.25333,30.96v4.58667h4.58667c1.26363,0 2.29333,-1.02971 2.29333,-2.29333c0,-1.26363 -1.02971,-2.29333 -2.29333,-2.29333zM69.94667,47.01333c-5.5384,0 -10.16735,3.94683 -11.23375,9.17333h86.68084c-1.06411,-5.22651 -5.69535,-9.17333 -11.23375,-9.17333zM58.48,60.77333v9.17781c-5.06139,0.01835 -9.17333,4.13424 -9.17333,9.20021v4.52396c0,5.06597 4.11195,9.18186 9.17333,9.20021v2.29781h87.14667v-2.29781c5.06139,-0.01835 9.17333,-4.13424 9.17333,-9.20021v-4.52396c0,-5.06368 -4.11195,-9.17957 -9.17333,-9.20021v-9.17781zM79.12,63.06667c0.58652,0 1.17311,0.22353 1.62146,0.67188c0.89669,0.89669 0.89669,2.34622 0,3.24292l-4.58667,4.58667c-0.44491,0.4472 -1.03436,0.67188 -1.62146,0.67188c-0.58709,0 -1.17426,-0.22468 -1.62146,-0.67188c-0.8944,-0.89669 -0.8944,-2.34622 0,-3.24292l4.58667,-4.58667c0.44835,-0.44835 1.03494,-0.67188 1.62146,-0.67188zM88.29333,67.65333c0.58652,0 1.17311,0.22353 1.62146,0.67188c0.89669,0.89669 0.89669,2.34622 0,3.24292l-16.05333,16.05333c-0.4472,0.4472 -1.03436,0.67188 -1.62146,0.67188c-0.58709,0 -1.17426,-0.22468 -1.62146,-0.67188c-0.89669,-0.89669 -0.89669,-2.34622 0,-3.24292l16.05333,-16.05333c0.44835,-0.44835 1.03494,-0.67188 1.62146,-0.67188zM69.94667,72.24c0.58652,0 1.17311,0.22353 1.62146,0.67188c0.89669,0.89669 0.89669,2.34622 0,3.24292l-2.29333,2.29333c-0.4472,0.4472 -1.03436,0.67188 -1.62146,0.67188c-0.58709,0 -1.17426,-0.22468 -1.62146,-0.67188c-0.89669,-0.89669 -0.89669,-2.34622 0,-3.24292l2.29333,-2.29333c0.44835,-0.44835 1.03494,-0.67188 1.62146,-0.67188zM58.48,74.53333v13.76c-2.53184,-0.01835 -4.58667,-2.08159 -4.58667,-4.61802v-4.52396c0,-2.53643 2.05483,-4.59967 4.58667,-4.61802zM145.62667,74.53333c2.53184,0.01835 4.58667,2.08159 4.58667,4.61802v4.52396c0,2.53643 -2.05483,4.59967 -4.58667,4.61802zM58.48,99.76v4.58667h16.05333c3.79317,0 6.88,3.08683 6.88,6.88v4.58667c0,3.79317 -3.08683,6.88 -6.88,6.88h-16.05333v11.46667c0,3.79317 3.08683,6.88 6.88,6.88v6.88c0,3.79317 3.08683,6.88 6.88,6.88h9.17333c3.79317,0 6.88,-3.08683 6.88,-6.88v-6.88h2.29333h22.93333h2.29333v6.88c0,3.79317 3.08683,6.88 6.88,6.88h9.17333c3.79317,0 6.88,-3.08683 6.88,-6.88v-6.88c3.79317,0 6.88,-3.08683 6.88,-6.88v-11.46667h-16.05333c-3.79317,0 -6.88,-3.08683 -6.88,-6.88v-4.58667c0,-3.79317 3.08683,-6.88 6.88,-6.88h16.05333v-4.58667zM58.48,108.93333v9.17333h16.05333c1.26592,0 2.29333,-1.02971 2.29333,-2.29333v-4.58667c0,-1.26363 -1.02971,-2.29333 -2.29333,-2.29333zM88.29333,108.93333h27.52c1.26592,0 2.29333,1.02741 2.29333,2.29333v25.22667h-4.58667v-22.93333h-22.93333v22.93333h-4.58667v-25.22667c0,-1.26592 1.02741,-2.29333 2.29333,-2.29333zM129.57333,108.93333c-1.26363,0 -2.29333,1.02971 -2.29333,2.29333v4.58667c0,1.26363 1.02971,2.29333 2.29333,2.29333h16.05333v-9.17333zM97.46667,118.10667h9.17333c1.26592,0 2.29333,1.02741 2.29333,2.29333c0,1.26592 -1.02741,2.29333 -2.29333,2.29333h-9.17333c-1.26592,0 -2.29333,-1.02741 -2.29333,-2.29333c0,-1.26592 1.02741,-2.29333 2.29333,-2.29333zM69.94667,127.28h9.17333c1.26592,0 2.29333,1.02741 2.29333,2.29333c0,1.26592 -1.02741,2.29333 -2.29333,2.29333h-9.17333c-1.26592,0 -2.29333,-1.02741 -2.29333,-2.29333c0,-1.26592 1.02741,-2.29333 2.29333,-2.29333zM97.46667,127.28h9.17333c1.26592,0 2.29333,1.02741 2.29333,2.29333c0,1.26592 -1.02741,2.29333 -2.29333,2.29333h-9.17333c-1.26592,0 -2.29333,-1.02741 -2.29333,-2.29333c0,-1.26592 1.02741,-2.29333 2.29333,-2.29333zM124.98667,127.28h9.17333c1.26592,0 2.29333,1.02741 2.29333,2.29333c0,1.26592 -1.02741,2.29333 -2.29333,2.29333h-9.17333c-1.26592,0 -2.29333,-1.02741 -2.29333,-2.29333c0,-1.26592 1.02741,-2.29333 2.29333,-2.29333zM69.94667,141.04h11.46667h2.29333v6.88c0,1.26363 -1.02971,2.29333 -2.29333,2.29333h-9.17333c-1.26363,0 -2.29333,-1.02971 -2.29333,-2.29333zM120.4,141.04h4.58667h9.17333v6.88c0,1.26363 -1.02971,2.29333 -2.29333,2.29333h-9.17333c-1.26363,0 -2.29333,-1.02971 -2.29333,-2.29333z"></path></g></g></svg>
+    <li>Lorem ipsum dolor sit amet </li>
+    <li>Quod dolores quidem </li>
+    <li>Aliquid, fugit neque</li>
+      </ul> 
+      <ul class="camina">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="60" height="60"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#f1c40f"></path><g fill="#ffffff"><path d="M92.88,22.704c-6.837,0 -12.384,5.547 -12.384,12.384c0,6.837 5.547,12.384 12.384,12.384c6.837,0 12.384,-5.547 12.384,-12.384c0,-6.837 -5.547,-12.384 -12.384,-12.384zM81.0765,52.976c-2.41875,0 -4.773,0.7955 -6.69725,2.26825l-18.705,12.26575c-0.13975,0.086 -0.26875,0.172 -0.39775,0.258l-0.03225,0.03225c-0.8385,0.602 -1.4835,1.42975 -1.8705,2.3865l-0.0215,0.043l-7.77225,18.32875c-0.559,0.8815 -0.86,1.90275 -0.86,2.9455c0,3.04225 2.46175,5.504 5.504,5.504c2.50475,0 4.69775,-1.70925 5.32125,-4.128l7.009,-15.70575l12.556,-7.181c-1.806,8.4065 -5.19225,24.06925 -5.19225,24.06925v0.05375c-0.24725,0.9245 -0.43,1.88125 -0.43,2.89175c0,2.193 0.65575,4.2355 1.763,5.94475l0.01075,0.03225l0.03225,0.03225c0.63425,0.97825 1.45125,1.8275 2.365,2.54775l12.65275,13.674l5.19225,23.29525c0.0215,0.9245 0.22575,1.8275 0.602,2.67675l0.03225,0.129l0.0215,-0.01075c1.12875,2.41875 3.55825,3.96675 6.22425,3.96675c3.79475,0 6.88,-3.08525 6.88,-6.88c0,-1.08575 -0.258,-2.16075 -0.7525,-3.12825l-5.49325,-24.80025l-10.26625,-17.46875l7.85825,-31.648v-0.01075c0.258,-0.89225 0.39775,-1.81675 0.39775,-2.752c0,-5.32125 -4.31075,-9.632 -9.632,-9.632c-0.0215,0 -0.043,0 -0.05375,0c-0.01075,0 -0.01075,0 -0.0215,0zM102.43675,63.511c-0.0215,0.43 -0.03225,0.84925 -0.09675,1.25775l-3.30025,13.4375l5.14925,5.6975l15.437,4.41825c0.01075,0 0.01075,0 0.01075,0l0.16125,0.05375v-0.01075c0.61275,0.24725 1.27925,0.387 1.978,0.387c3.04225,0 5.504,-2.46175 5.504,-5.504c0,-2.408 -1.55875,-4.429 -3.698,-5.1815v-0.0215l-13.72775,-4.03125zM67.95075,107.672l-2.58,12.943l-13.115,16.90975c-1.247,1.247 -2.03175,2.97775 -2.03175,4.89125c0,3.8055 3.0745,6.88 6.88,6.88c2.52625,0 4.7085,-1.376 5.90175,-3.397l0.03225,0.01075l13.674,-17.8235l2.46175,-9.2235z"></path></g></g></svg>
+          <li>Lorem ipsum dolor sit amet </li>
+          <li>Quod dolores quidem </li>
+          <li>Aliquid, fugit neque</li>
+    </li>
+
+  </ul>
+</div>
+<h3 class="contacto">Contacto</h3>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputName" class="form-label">Apellido</label>
+    <input type="Name" class="form-control" id="inputName">
+  </div>
+  <div class="col-12">
+    <label for="inputEmail" class="form-label">Mail</label>
+    <input type="text" class="form-control" id="inputEmail" placeholder="example@hotmail.com">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Celular</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Incluya codigo de area">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Indicar disponibilidad horaria para el contacto</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Departamento</label>
+    <select id="inputState" class="form-select">
+      <option selected>1 ambiente</option>
+      <option>2 ambientes</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Edad</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-secondary btn-sm">Enviar datos</button>
+  </div>
+</form>
+<ul class="redes">
+  <h3>Seguinos</h3>
+  <li><img src="https://img.icons8.com/ios-filled/40/000000/circled-i.png"/></li>
+  <li><img src="https://img.icons8.com/ios-filled/40/000000/circled-f.png"/></li>
+  <li><img src="https://img.icons8.com/ios-filled/40/000000/circled-w.png"/></li>
+</ul>
+<br>
+<div class="preguntas">
+<h2>Preguntas frecuentes</h2>
+<ul>
+  <li>Quienes somos</li>
+  <li>Donde nos encontramos</li>
+  <li>Precios</li>
+  <li>Contacto</li>
+  <li>Beneficios</li>
+</ul>
+</div>
+<div class="row">
+  <h3 class="galery">Galery</h3>
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="hall.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="comodidad.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+ <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="comodidad.jog.JPG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="hall.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="comodidad.jog.JPG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="comodidad.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+</body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>

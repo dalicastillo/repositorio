@@ -1,0 +1,32 @@
+.nav-link {color:rgb(0, 0, 0);display: flex; text-align: left; justify-content: left; font-family:Arial, Helvetica, sans-serif;font-weight: bolder ;}
+.btn-dark { border-radius: 15}
+.dos {float: left;}
+.btn-secondary{background-color:brown;  position: relative right; border-radius: 15%; font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;}
+.bordo{color: white;background-color: brown; justify-content: center; text-align: center; align-items: center;}
+a {float: left;}
+.navbar { float: right;}
+h5 {font-size: 20px; width: 15x ;}
+h3 {font-family: Arial, Helvetica, sans-serif; font-weight: bolder;}
+.carrusel { font-family:Arial, Helvetica, sans-serif; color: brown; font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;}
+.mapa {display: grid ; grid-template-columns: 1fr 1fr 1fr 1fr;}
+.mapa h3 {color:  rgb(255, 204, 35); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bolder;}
+.grillas {display: grid; grid-template-columns:3fr 2fr }
+.redes {display: inline-flex; float: right; list-style: none;}
+.preguntas {color: rgb(255, 255, 255); background-color: brown; display: inline-block;width: 100%; text-align:left;}
+.mt-0 {color: brown; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;font-size: 40px;}
+.mt {color: rgb(1, 36, 90); font-family: Arial, Helvetica, sans-serif; font-weight: bolder;}
+.col-md-6 {color: rgb(17, 17, 51); font-family: Arial, Helvetica, sans-serif; font-weight: bolder;}
+li{font-family: Arial, Helvetica, sans-serif;font-weight: bolder;}
+.about {text-decoration: underline;}
+.ubicacion {text-decoration: underline;}
+.depto {text-decoration: underline;}
+.contacto {text-decoration: underline;}
+.galery {text-decoration: underline;}
+.row {font-family: Arial, Helvetica, sans-serif; font-weight: bolder;}
+header h4 {list-style: none; display:inline; padding-left: 4px; padding-right: 4px;font-family: Arial, Helvetica, sans-serif; font-weight: bolder;
+font-size: 20px;height: 18px;text-decoration: underline;}
